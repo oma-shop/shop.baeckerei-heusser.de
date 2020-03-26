@@ -61,12 +61,12 @@ a {
   color: var(--primary);
 }
 :root {
-  --primary: rgba(115, 252, 255, 1);
+  --primary: rgba(244, 164, 68, 0.2);
   --secondary: #af8766;
-  --primary_50: rgba(115, 252, 255, 0.5);
-  --primary_0: rgba(115, 252, 255, 0);
-  --primary_light: #00dbeb;
-  --primary-darken: #03a3af;
+  --primary_50: rgba(244, 164, 68, 0.5);
+  --primary_0: rgba(244, 164, 68, 0);
+  --primary_light: rgba(244, 164, 68, 0.5);;
+  --primary-darken: rgba(244, 164, 68, 0.5);;
   --secondary-2: #5ab0b2;
   --dark: #3d4449;
   --dark-transp: rgba(61, 68, 73, 0.5);

@@ -2,21 +2,21 @@
   <div class="page">
     <Navigation />
     <Hero />
+    <LatestNews />
     <Content />
-    <h2 class="headline">Die Spender</h2>
-    <Socials />
     <Footer />
   </div>
 </template>
 
 <script>
 import Hero from '../components/Hero'
+import LatestNews from '~/components/LatestNews.vue'
 import Content from '~/components/Content.vue'
 import Socials from '../components/Socials'
 import Navigation from '~/components/Navigation.vue'
 import Footer from '~/components/Footer.vue'
 export default {
-  components: { Navigation, Hero, Content, Socials, Footer },
+  components: { Navigation, Hero, LatestNews, Content, Socials, Footer },
   data() {
     return {
       url: `${process.env.shopUrl}/en?refLink=${process.env.refAddress}`

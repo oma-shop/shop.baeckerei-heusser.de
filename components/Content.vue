@@ -19,12 +19,12 @@
                 <span>{{ listItem }}</span>
               </div>
             </div>
-            <div
+            <!-- <div
               v-bind:class="{ 'link-disabled': item.link.disabled }"
               class="link btn btn--primary"
             >
               <a :href="item.link.url" target="_blank">{{ item.link.text }}</a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -36,89 +36,7 @@
 export default {
   data() {
     return {
-      items: [
-        {
-          layout_inverted: false,
-          heading: 'Marketplace',
-          description:
-            '',
-          icon: 'blog.svg',
-          list: [
-            'All shops in your city.',
-            'Shopping in your local is easy with the marketplace.',
-            'Instant delivery wihtin the local community.'
-          ],
-          link: {
-            text: 'Discover the Marketplace',
-            url: ''
-          }
-        },
-        {
-          layout_inverted: true,
-          heading: 'News',
-          description:
-            '',
-          icon: 'learn.svg',
-          list: [
-            'Stay up to date.',
-            'Whats new in the city',
-            'Shops can request news to the marketplace.'
-          ],
-          link: {
-            text: 'News coming soon',
-            url: '',
-            disabled: true
-          }
-        },
-        {
-          layout_inverted: false,
-          heading: 'Shop',
-          description:
-            '',
-          icon: 'shop.svg',
-          list: [
-            'Get Donations from all over the world.',
-            'Sell your products online for free.',
-            'Discover the Shop and become a part of the Marketplace.'
-          ],
-          link: {
-            text: 'Discover Shop',
-            url: ''
-          }
-        },
-        {
-          layout_inverted: true,
-          heading: 'Local Chat',
-          description:
-            '',
-          icon: 'community.svg',
-          list: [
-            'Online Chat for your Local Community.',
-            'Or chat with your friends and family.',
-            'Text, video or Group chat supported.'
-          ],
-          link: {
-            text: 'Discover Community',
-            url: 'https://community.einfachiota.de'
-          }
-        },
-        {
-          layout_inverted: false,
-          heading: 'Donations',
-          description:
-            '',
-          icon: 'verein.svg',
-          list: [
-            'Donate to your local community shops.',
-            'A donation will be distributed to all shops',
-            'Donators apear in the donator list'
-          ],
-          link: {
-            text: 'Donate to Südtirol',
-            url: ''
-          }
-        }
-      ]
+      items: require('@/content/list')
     }
   }
 }

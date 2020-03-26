@@ -8,13 +8,13 @@
         <div class="animated-heading__container">
           <ul class="animated-heading__container__list">
             <li class="animated-heading__container__list__item">
-              Alle Neuigkeiten
+              Brot, Kuchen und mehr.
             </li>
             <li class="animated-heading__container__list__item">
-              Online Einkaufen
+              Online Bestellen
             </li>
-            <li class="animated-heading__container__list__item">Der Stadt Chat</li>
-            <li class="animated-heading__container__list__item">Spenden</li>
+            <li class="animated-heading__container__list__item">Jetzt auch Lieferung </li>
+            <li class="animated-heading__container__list__item">#bleibDehemm</li>
           </ul>
         </div>
       </div>
@@ -129,8 +129,8 @@ export default {
     background: rgb(115, 252, 255);
     background: radial-gradient(
       circle,
-      rgba(115, 252, 255, 0.9) 0%,
-      rgba(115, 252, 255, 0.6) 100%
+      rgba(244, 164, 68, 0.2) 0%,
+      rgba(240, 180, 106, 0.9) 100%
     );
   }
 }
