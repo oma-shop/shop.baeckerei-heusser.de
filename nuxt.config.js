@@ -11,7 +11,7 @@ const longitude = process.env.LONGITUDE ? process.env.LONGITUDE : config.locatio
 module.exports = {
   mode: 'universal',
   router: {
-    base: process.env.DEPLOY_ENV === 'GH_PAGES' ? '/' + gh_repo_name + '/' : ''
+    base: process.env.DEPLOY_ENV === 'GH_PAGES' && !process.env.CNAME ? '/' + gh_repo_name + '/' : ''
   },
   /*
   ** Headers of the page
