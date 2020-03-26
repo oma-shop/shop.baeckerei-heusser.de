@@ -1,0 +1,9 @@
+{
+    "title": "Your Shop",
+    "description": "Describe your local shop.",
+    "github_repo_name": "",
+    "location": {
+        "latitude": 52.529562,
+        "longitude": 13.413047
+    }
+}
